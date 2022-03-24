@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+
+		<title>Frontend Mentor | Order summary card</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card bg-neutral-100 text-center rounded-xl">
+			<img
+				class="card__image"
+				src="./images/illustration-hero.svg"
+				alt="hero illustration"
+			/>
+			<div class="card__content padding-48 grid-flow">
+				<h2 class="font-extra-bold">Order Summary</h2>
+				<p>
+					You can now listen to millions of songs, audiobooks, and
+					podcasts on any device anywhere you like!
+				</p>
+				<div class="flex bg-neutral-200 padding-24 rounded">
+					<img src="./images/icon-music.svg" alt="" />
+					<div class="">
+						<p class="text-neutral-800 font-extra-bold">
+							Annual Plan
+						</p>
+						<p>$59.99/year</p>
+					</div>
+					<button class="link push-right">Change</button>
+				</div>
+				<button class="btn-primary">Proceed to Payment</button>
+				<button class="btn-naked">Cancel Order</button>
+			</div>
+		</div>
+
+		<div class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://twitter.com/difool0x">@difool0x</a>.
+		</div>
+	</body>
+</html>
