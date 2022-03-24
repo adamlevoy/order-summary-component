@@ -95,12 +95,17 @@ select {
 }
 
 body {
+	padding: 1rem;
 	font-family: 'Red Hat Display', sans-serif;
 	font-size: var(--fs-400);
 	font-weight: var(--fw-400);
 	line-height: 1.6;
 	color: var(--clr-neutral-400);
 	background-color: var(--clr-primary-200);
+	background-image: url('./images/pattern-background-desktop.svg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 
 	/* for demo only */
 	display: grid;
