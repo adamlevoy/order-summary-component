@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/difooldevs/order-summary-component)
--   Live Site URL: [Add live site URL here](https://difooldevs.github.io/order-summary-component/)
+-   Solution URL: [https://github.com/difooldevs/order-summary-component](https://github.com/difooldevs/order-summary-component)
+-   Live Site URL: [https://difooldevs.github.io/order-summary-component](https://difooldevs.github.io/order-summary-component/)
 
 ## My process
 
